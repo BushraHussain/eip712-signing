@@ -1,0 +1,26 @@
+{
+  "name": "eip712-signing",
+  "version": "1.0.0",
+  "description": "Signing and Verifying EIP712 Messages Off-chain and On-chain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BushraHussain/eip712-signing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BushraHussain/eip712-signing/issues"
+  },
+  "homepage": "https://github.com/BushraHussain/eip712-signing#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.16.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.2"
+  }
+}

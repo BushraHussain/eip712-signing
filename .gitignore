@@ -1,0 +1,13 @@
+node_modules
+
+node_modules
+.env
+coverage
+coverage.json
+
+# Hardhat files
+cache
+artifacts
+
+.DS_Store
+
