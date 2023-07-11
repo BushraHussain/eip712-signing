@@ -53,7 +53,7 @@ describe("Example contract ", function () {
     let owner;
     
     before(async function () {
-        [owner, spender] = await ethers.getSigners();
+        [owner] = await ethers.getSigners();
 
         // Deploy contract
         example = await ethers.deployContract("Example");         
